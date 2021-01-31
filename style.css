@@ -1,0 +1,53 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+/* 3 */
+#gallery {
+    display: flex;
+    justify-content: space-between;    
+    list-style: none;
+    padding-top: 40px;
+    padding-bottom: 40px;    
+}
+
+
+#categories li{
+    list-style: none;
+}
+
+#ingredients {
+    list-style: none;
+}
+
+/* 5 */
+#counter {
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
+
+/* 6 */
+#validation-input {
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
+
+
